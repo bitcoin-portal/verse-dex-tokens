@@ -16,7 +16,7 @@ This is a community-sourced token list used to power the [Verse DEX](https://ver
             "explorer": "https://www.smartscan.cash/tx/",
             "token": "0x98Dd7eC28FB43b3C4c770AE532417015fa939Dd3",
             "decimals": 18,
-            "pairs": ["BCH", "flexUSD"] // this will add the FLEX/BCH and FLEX/flexUSD to the list of liquidity pools
+            "pairs": ["BCH", "flexUSD"] // this will add FLEX/BCH and FLEX/flexUSD to the list of liquidity pools
         }
     ```
     - A 64x64 png of the token icon to the /icons directory
