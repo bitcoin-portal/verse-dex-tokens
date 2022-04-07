@@ -3,7 +3,7 @@
 This is a community-sourced token list used to power the [Verse DEX](https://verse.bitcoin.com/).
 
 # How to add your token / liquidity pool to [verse.bitcoin.com](https://verse.bitcoin.com)
-1. Open a pull request on this repo containing the following:
+1. Open a pull request on this repo ([example](https://github.com/bitcoin-portal/verse-dex-tokens/pull/2)) containing the following:
     - Add your token config to [tokens.json](https://github.com/bitcoin-portal/verse-dex-tokens/blob/trunk/config/tokens.json). Include any liquidity pairs you'd like to list under `pairs` e.g. :
     ```javascript
         {
