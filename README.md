@@ -22,3 +22,8 @@ This is a community-sourced token list used to power the [Verse DEX](https://ver
     - A 64x64 png of the token icon to the /icons directory
     - A wallet address from which you will provide the initial liquidity for the pool
 2. Our team will review your PR and merge it. You will then be able to view and add initial liquidity to the new pools on the Verse DEX using your provided wallet address.
+
+## Syntax for token pairs ##
+- Bitcoin Cash: "BCH"
+- flexUSD: "flexUSD"
+- Flex: "FLEX"
