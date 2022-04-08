@@ -2,8 +2,6 @@ reviewers:
   # The default reviewers
   defaults:
     - repository-owners # group
-    - octocat # username
-    - team:default-reviewers # GitHub team
 
   # Reviewer groups each of which has a list of GitHub usernames
   groups:
