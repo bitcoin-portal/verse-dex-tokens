@@ -7,14 +7,14 @@ This is a community-sourced token list used to power the [Verse DEX](https://ver
     - Add your token config to [tokens.json](https://github.com/bitcoin-portal/verse-dex-tokens/blob/trunk/config/tokens.json). Include any liquidity pairs you'd like to list under `pairs` e.g. :
     ```javascript
         {
-            "abbr": "FLEX",
-            "value": "FLEX",
+            "abbr": "FLEX", // token symbol
+            "value": "FLEX", // same as abbr
             "protocol": "SEP20_PROTOCOL",
             "blockchain": "BCH",
-            "label": "FLEX",
+            "label": "FLEX", // token display name
             "ticker": "flex",
             "explorer": "https://www.smartscan.cash/tx/",
-            "token": "0x98Dd7eC28FB43b3C4c770AE532417015fa939Dd3",
+            "token": "0x98Dd7eC28FB43b3C4c770AE532417015fa939Dd3", // token contract address
             "decimals": 18,
             "pairs": ["BCH", "flexUSD"] // this will add FLEX/BCH and FLEX/flexUSD to the list of liquidity pools
         }
