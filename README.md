@@ -27,3 +27,4 @@ This is a community-sourced token list used to power the [Verse DEX](https://ver
 - Bitcoin Cash: "BCH"
 - flexUSD: "flexUSD"
 - Flex: "FLEX"
+- JOY: "JOY"
