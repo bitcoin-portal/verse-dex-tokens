@@ -1,7 +1,8 @@
 ### Token Details
-- **Token symbol:RMZ**
-- **Token name:Xolos**
-- **Wallet address used to provide initial pool liquidity:0x8f0DdeEA2406f327a8E9adB47aD968d87C3A6bbd**
+- **Token symbol:**
+- **Token name:**
+- **Wallet address used to provide initial pool liquidity:**
+- **Project website:**
 
 ### Checklist
 - [ ] Filled out token details above
