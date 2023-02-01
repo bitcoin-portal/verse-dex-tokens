@@ -14,3 +14,336 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config: .github/reviewers.yml # Config file location override
+2023-02-01T02:47:35.4703070Z Requested labels: ubuntu-latest
+2023-02-01T02:47:35.4703117Z Job defined at: Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6/.github/workflows/blank.yml@refs/heads/main
+2023-02-01T02:47:35.4703152Z Waiting for a runner to pick up this job...
+2023-02-01T02:47:35.8037933Z Job is waiting for a hosted runner to come online.
+2023-02-01T02:47:40.4463053Z Job is about to start running on the hosted runner: Hosted Agent (hosted)
+2023-02-01T02:47:45.0945850Z ##[debug]Starting: build
+2023-02-01T02:47:45.0974285Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2023-02-01T02:47:45.1357267Z ##[debug]Starting: Set up job
+2023-02-01T02:47:45.1357753Z Current runner version: '2.301.1'
+2023-02-01T02:47:45.1383651Z ##[group]Operating System
+2023-02-01T02:47:45.1384219Z Ubuntu
+2023-02-01T02:47:45.1384618Z 22.04.1
+2023-02-01T02:47:45.1384950Z LTS
+2023-02-01T02:47:45.1385303Z ##[endgroup]
+2023-02-01T02:47:45.1385631Z ##[group]Runner Image
+2023-02-01T02:47:45.1386055Z Image: ubuntu-22.04
+2023-02-01T02:47:45.1386479Z Version: 20230122.1
+2023-02-01T02:47:45.1387322Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20230122.1/images/linux/Ubuntu2204-Readme.md
+2023-02-01T02:47:45.1388088Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20230122.1
+2023-02-01T02:47:45.1388636Z ##[endgroup]
+2023-02-01T02:47:45.1389012Z ##[group]Runner Image Provisioner
+2023-02-01T02:47:45.1389460Z 2.0.98.1
+2023-02-01T02:47:45.1390025Z ##[endgroup]
+2023-02-01T02:47:45.1390792Z ##[group]GITHUB_TOKEN Permissions
+2023-02-01T02:47:45.1391559Z Contents: read
+2023-02-01T02:47:45.1391946Z Metadata: read
+2023-02-01T02:47:45.1392284Z Packages: read
+2023-02-01T02:47:45.1392664Z ##[endgroup]
+2023-02-01T02:47:45.1397047Z Secret source: Actions
+2023-02-01T02:47:45.1397777Z ##[debug]Primary repository: Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:45.1398289Z Prepare workflow directory
+2023-02-01T02:47:45.1487804Z ##[debug]Creating pipeline directory: '/home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:45.1490715Z ##[debug]Creating workspace directory: '/home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:45.1491992Z ##[debug]Update context data
+2023-02-01T02:47:45.1494732Z ##[debug]Evaluating job-level environment variables
+2023-02-01T02:47:45.2258882Z ##[debug]Evaluating job container
+2023-02-01T02:47:45.2263142Z ##[debug]Evaluating job service containers
+2023-02-01T02:47:45.2265919Z ##[debug]Evaluating job defaults
+2023-02-01T02:47:45.2352839Z Prepare all required actions
+2023-02-01T02:47:45.2570318Z Getting action download info
+2023-02-01T02:47:45.4709810Z Download action repository 'actions/checkout@v3' (SHA:ac593985615ec2ede58e132d2e21d2b1cbd6127c)
+2023-02-01T02:47:45.9499558Z ##[debug]Download 'https://api.github.com/repos/actions/checkout/tarball/ac593985615ec2ede58e132d2e21d2b1cbd6127c' to '/home/runner/work/_actions/_temp_7416e5ef-b492-4711-9b12-84facb76a905/fcd89559-759a-419d-a455-380a8bb7947c.tar.gz'
+2023-02-01T02:47:46.0710478Z ##[debug]Unwrap 'actions-checkout-ac59398' to '/home/runner/work/_actions/actions/checkout/v3'
+2023-02-01T02:47:46.0892339Z ##[debug]Archive '/home/runner/work/_actions/_temp_7416e5ef-b492-4711-9b12-84facb76a905/fcd89559-759a-419d-a455-380a8bb7947c.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/checkout/v3'.
+2023-02-01T02:47:46.1103376Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/checkout/v3/action.yml'.
+2023-02-01T02:47:46.2521034Z ##[debug]Set step '__actions_checkout' display name to: 'Run actions/checkout@v3'
+2023-02-01T02:47:46.2523811Z ##[debug]Set step '__run' display name to: 'Run a one-line script'
+2023-02-01T02:47:46.2525081Z ##[debug]Set step '__run_2' display name to: 'Run a multi-line script'
+2023-02-01T02:47:46.2525571Z Complete job name: build
+2023-02-01T02:47:46.2536488Z ##[debug]Collect running processes for tracking orphan processes.
+2023-02-01T02:47:46.2792201Z ##[debug]Finishing: Set up job
+2023-02-01T02:47:46.3031385Z ##[debug]Evaluating condition for step: 'Run actions/checkout@v3'
+2023-02-01T02:47:46.3095723Z ##[debug]Evaluating: success()
+2023-02-01T02:47:46.3102644Z ##[debug]Evaluating success:
+2023-02-01T02:47:46.3134286Z ##[debug]=> true
+2023-02-01T02:47:46.3142830Z ##[debug]Result: true
+2023-02-01T02:47:46.3190583Z ##[debug]Starting: Run actions/checkout@v3
+2023-02-01T02:47:46.3321043Z ##[debug]Register post job cleanup for action: actions/checkout@v3
+2023-02-01T02:47:46.3445940Z ##[debug]Loading inputs
+2023-02-01T02:47:46.3456071Z ##[debug]Evaluating: github.repository
+2023-02-01T02:47:46.3457220Z ##[debug]Evaluating Index:
+2023-02-01T02:47:46.3459646Z ##[debug]..Evaluating github:
+2023-02-01T02:47:46.3460863Z ##[debug]..=> Object
+2023-02-01T02:47:46.3477838Z ##[debug]..Evaluating String:
+2023-02-01T02:47:46.3478716Z ##[debug]..=> 'repository'
+2023-02-01T02:47:46.3483863Z ##[debug]=> 'Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:46.3485865Z ##[debug]Result: 'Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:46.3488540Z ##[debug]Evaluating: github.token
+2023-02-01T02:47:46.3488929Z ##[debug]Evaluating Index:
+2023-02-01T02:47:46.3489284Z ##[debug]..Evaluating github:
+2023-02-01T02:47:46.3489636Z ##[debug]..=> Object
+2023-02-01T02:47:46.3489966Z ##[debug]..Evaluating String:
+2023-02-01T02:47:46.3490306Z ##[debug]..=> 'token'
+2023-02-01T02:47:46.3491035Z ##[debug]=> '***'
+2023-02-01T02:47:46.3491550Z ##[debug]Result: '***'
+2023-02-01T02:47:46.3498215Z ##[debug]Loading env
+2023-02-01T02:47:46.3605569Z ##[group]Run actions/checkout@v3
+2023-02-01T02:47:46.3605934Z with:
+2023-02-01T02:47:46.3606327Z   repository: Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:46.3607025Z   token: ***
+2023-02-01T02:47:46.3607310Z   ssh-strict: true
+2023-02-01T02:47:46.3607651Z   persist-credentials: true
+2023-02-01T02:47:46.3607980Z   clean: true
+2023-02-01T02:47:46.3608257Z   fetch-depth: 1
+2023-02-01T02:47:46.3608546Z   lfs: false
+2023-02-01T02:47:46.3608847Z   submodules: false
+2023-02-01T02:47:46.3609183Z   set-safe-directory: true
+2023-02-01T02:47:46.3609498Z ##[endgroup]
+2023-02-01T02:47:46.6866554Z ##[debug]GITHUB_WORKSPACE = '/home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:46.6868140Z ##[debug]qualified repository = 'Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:46.6868843Z ##[debug]ref = 'refs/heads/main'
+2023-02-01T02:47:46.6869501Z ##[debug]commit = '8a75a467f58ad0d2ed5b3b80935413ac33601359'
+2023-02-01T02:47:46.6870038Z ##[debug]clean = true
+2023-02-01T02:47:46.6870499Z ##[debug]fetch depth = 1
+2023-02-01T02:47:46.6870976Z ##[debug]lfs = false
+2023-02-01T02:47:46.6871490Z ##[debug]submodules = false
+2023-02-01T02:47:46.6871989Z ##[debug]recursive submodules = false
+2023-02-01T02:47:46.6879538Z ##[debug]GitHub Host URL = 
+2023-02-01T02:47:46.6883647Z ::add-matcher::/home/runner/work/_actions/actions/checkout/v3/dist/problem-matcher.json
+2023-02-01T02:47:46.7042486Z ##[debug]Added matchers: 'checkout-git'. Problem matchers scan action output for known warning or error strings and report these inline.
+2023-02-01T02:47:46.7054991Z Syncing repository: Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:46.7056252Z ::group::Getting Git version info
+2023-02-01T02:47:46.7057876Z ##[group]Getting Git version info
+2023-02-01T02:47:46.7058714Z Working directory is '/home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:46.7059485Z ##[debug]Getting git version
+2023-02-01T02:47:46.7059795Z [command]/usr/bin/git version
+2023-02-01T02:47:46.7149090Z git version 2.39.1
+2023-02-01T02:47:46.7181858Z ##[debug]0
+2023-02-01T02:47:46.7182388Z ##[debug]git version 2.39.1
+2023-02-01T02:47:46.7185256Z ##[debug]
+2023-02-01T02:47:46.7186015Z ##[debug]Set git useragent to: git/2.39.1 (github-actions-checkout)
+2023-02-01T02:47:46.7186815Z ::endgroup::
+2023-02-01T02:47:46.7187121Z ##[endgroup]
+2023-02-01T02:47:46.7209852Z ::add-mask::***
+2023-02-01T02:47:46.7211364Z Temporarily overriding HOME='/home/runner/work/_temp/7b0eed42-518a-4036-843a-dba58325976b' before making global git config changes
+2023-02-01T02:47:46.7211977Z Adding repository directory to the temporary git global config as a safe directory
+2023-02-01T02:47:46.7212815Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:46.7251232Z ##[debug]0
+2023-02-01T02:47:46.7252417Z ##[debug]
+2023-02-01T02:47:46.7263513Z Deleting the contents of '/home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:46.7269929Z ::group::Initializing the repository
+2023-02-01T02:47:46.7270303Z ##[group]Initializing the repository
+2023-02-01T02:47:46.7274509Z [command]/usr/bin/git init /home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:46.7361033Z hint: Using 'master' as the name for the initial branch. This default branch name
+2023-02-01T02:47:46.7362371Z hint: is subject to change. To configure the initial branch name to use in all
+2023-02-01T02:47:46.7362958Z hint: of your new repositories, which will suppress this warning, call:
+2023-02-01T02:47:46.7363310Z hint: 
+2023-02-01T02:47:46.7364066Z hint: 	git config --global init.defaultBranch <name>
+2023-02-01T02:47:46.7364386Z hint: 
+2023-02-01T02:47:46.7364855Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2023-02-01T02:47:46.7365403Z hint: 'development'. The just-created branch can be renamed via this command:
+2023-02-01T02:47:46.7365757Z hint: 
+2023-02-01T02:47:46.7366069Z hint: 	git branch -m <name>
+2023-02-01T02:47:46.7374848Z Initialized empty Git repository in /home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6/.git/
+2023-02-01T02:47:46.7381960Z ##[debug]0
+2023-02-01T02:47:46.7383113Z ##[debug]Initialized empty Git repository in /home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6/.git/
+2023-02-01T02:47:46.7383540Z ##[debug]
+2023-02-01T02:47:46.7388034Z [command]/usr/bin/git remote add origin https://github.com/Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:46.7441826Z ##[debug]0
+2023-02-01T02:47:46.7442784Z ##[debug]
+2023-02-01T02:47:46.7443807Z ::endgroup::
+2023-02-01T02:47:46.7444063Z ##[endgroup]
+2023-02-01T02:47:46.7444740Z ::group::Disabling automatic garbage collection
+2023-02-01T02:47:46.7445112Z ##[group]Disabling automatic garbage collection
+2023-02-01T02:47:46.7446870Z [command]/usr/bin/git config --local gc.auto 0
+2023-02-01T02:47:46.7485008Z ##[debug]0
+2023-02-01T02:47:46.7485906Z ##[debug]
+2023-02-01T02:47:46.7486648Z ::endgroup::
+2023-02-01T02:47:46.7486895Z ##[endgroup]
+2023-02-01T02:47:46.7487496Z ::group::Setting up auth
+2023-02-01T02:47:46.7487791Z ##[group]Setting up auth
+2023-02-01T02:47:46.7493895Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2023-02-01T02:47:46.7528599Z ##[debug]1
+2023-02-01T02:47:46.7529671Z ##[debug]
+2023-02-01T02:47:46.7535064Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2023-02-01T02:47:46.7967688Z ##[debug]0
+2023-02-01T02:47:46.7968731Z ##[debug]
+2023-02-01T02:47:46.7973184Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2023-02-01T02:47:46.8007643Z ##[debug]1
+2023-02-01T02:47:46.8008541Z ##[debug]
+2023-02-01T02:47:46.8012017Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2023-02-01T02:47:46.8257097Z ##[debug]0
+2023-02-01T02:47:46.8258078Z ##[debug]
+2023-02-01T02:47:46.8267979Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2023-02-01T02:47:46.8313231Z ##[debug]0
+2023-02-01T02:47:46.8314164Z ##[debug]
+2023-02-01T02:47:46.8343837Z ::endgroup::
+2023-02-01T02:47:46.8344187Z ##[endgroup]
+2023-02-01T02:47:46.8345301Z ::group::Fetching the repository
+2023-02-01T02:47:46.8345616Z ##[group]Fetching the repository
+2023-02-01T02:47:46.8347204Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +8a75a467f58ad0d2ed5b3b80935413ac33601359:refs/remotes/origin/main
+2023-02-01T02:47:47.1646628Z remote: Enumerating objects: 7, done.        
+2023-02-01T02:47:47.1650840Z remote: Counting objects:  14% (1/7)        
+2023-02-01T02:47:47.1651323Z remote: Counting objects:  28% (2/7)        
+2023-02-01T02:47:47.1651981Z remote: Counting objects:  42% (3/7)        
+2023-02-01T02:47:47.1652661Z remote: Counting objects:  57% (4/7)        
+2023-02-01T02:47:47.1653198Z remote: Counting objects:  71% (5/7)        
+2023-02-01T02:47:47.1653859Z remote: Counting objects:  85% (6/7)        
+2023-02-01T02:47:47.1654467Z remote: Counting objects: 100% (7/7)        
+2023-02-01T02:47:47.1655092Z remote: Counting objects: 100% (7/7), done.        
+2023-02-01T02:47:47.1749813Z remote: Compressing objects:  20% (1/5)        
+2023-02-01T02:47:47.1750190Z remote: Compressing objects:  40% (2/5)        
+2023-02-01T02:47:47.1750529Z remote: Compressing objects:  60% (3/5)        
+2023-02-01T02:47:47.1750881Z remote: Compressing objects:  80% (4/5)        
+2023-02-01T02:47:47.1751209Z remote: Compressing objects: 100% (5/5)        
+2023-02-01T02:47:47.1751543Z remote: Compressing objects: 100% (5/5), done.        
+2023-02-01T02:47:47.1856304Z remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0        
+2023-02-01T02:47:47.1952747Z From https://github.com/Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:47.1953780Z  * [new ref]         8a75a467f58ad0d2ed5b3b80935413ac33601359 -> origin/main
+2023-02-01T02:47:47.2003333Z ##[debug]0
+2023-02-01T02:47:47.2004183Z ##[debug]
+2023-02-01T02:47:47.2005112Z ::endgroup::
+2023-02-01T02:47:47.2005376Z ##[endgroup]
+2023-02-01T02:47:47.2006080Z ::group::Determining the checkout info
+2023-02-01T02:47:47.2006416Z ##[group]Determining the checkout info
+2023-02-01T02:47:47.2007409Z ::endgroup::
+2023-02-01T02:47:47.2007633Z ##[endgroup]
+2023-02-01T02:47:47.2008302Z ::group::Checking out the ref
+2023-02-01T02:47:47.2008577Z ##[group]Checking out the ref
+2023-02-01T02:47:47.2013128Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2023-02-01T02:47:47.2067122Z Switched to a new branch 'main'
+2023-02-01T02:47:47.2072068Z branch 'main' set up to track 'origin/main'.
+2023-02-01T02:47:47.2077650Z ##[debug]0
+2023-02-01T02:47:47.2078625Z ##[debug]branch 'main' set up to track 'origin/main'.
+2023-02-01T02:47:47.2078913Z ##[debug]
+2023-02-01T02:47:47.2079489Z ::endgroup::
+2023-02-01T02:47:47.2079741Z ##[endgroup]
+2023-02-01T02:47:47.2125684Z ##[debug]0
+2023-02-01T02:47:47.2126849Z ##[debug]commit 8a75a467f58ad0d2ed5b3b80935413ac33601359
+2023-02-01T02:47:47.2127279Z ##[debug]Author: Spaz1503cm <56177102+Spaz1503cm@users.noreply.github.com>
+2023-02-01T02:47:47.2127653Z ##[debug]Date:   Thu Jan 26 21:20:28 2023 -0800
+2023-02-01T02:47:47.2127922Z ##[debug]
+2023-02-01T02:47:47.2128249Z ##[debug]    Merge pull request #1 from Spaz1503cm/Spaz1503cm-patch-1
+2023-02-01T02:47:47.2128573Z ##[debug]    
+2023-02-01T02:47:47.2128820Z ##[debug]    Create blank.yml
+2023-02-01T02:47:47.2129070Z ##[debug]
+2023-02-01T02:47:47.2134393Z [command]/usr/bin/git log -1 --format='%H'
+2023-02-01T02:47:47.2191009Z '8a75a467f58ad0d2ed5b3b80935413ac33601359'
+2023-02-01T02:47:47.2196015Z ##[debug]0
+2023-02-01T02:47:47.2196947Z ##[debug]'8a75a467f58ad0d2ed5b3b80935413ac33601359'
+2023-02-01T02:47:47.2197246Z ##[debug]
+2023-02-01T02:47:47.2201564Z ##[debug]Unsetting HOME override
+2023-02-01T02:47:47.2211275Z ::remove-matcher owner=checkout-git::
+2023-02-01T02:47:47.2238363Z ##[debug]Removed matchers: 'checkout-git'
+2023-02-01T02:47:47.2316206Z ##[debug]Node Action run completed with exit code 0
+2023-02-01T02:47:47.2472158Z ##[debug]Save intra-action state isPost = true
+2023-02-01T02:47:47.2472603Z ##[debug]Save intra-action state setSafeDirectory = true
+2023-02-01T02:47:47.2473136Z ##[debug]Save intra-action state repositoryPath = /home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:47.2487821Z ##[debug]Finishing: Run actions/checkout@v3
+2023-02-01T02:47:47.2497350Z ##[debug]Evaluating condition for step: 'Run a one-line script'
+2023-02-01T02:47:47.2500417Z ##[debug]Evaluating: success()
+2023-02-01T02:47:47.2500809Z ##[debug]Evaluating success:
+2023-02-01T02:47:47.2501263Z ##[debug]=> true
+2023-02-01T02:47:47.2501754Z ##[debug]Result: true
+2023-02-01T02:47:47.2502576Z ##[debug]Starting: Run a one-line script
+2023-02-01T02:47:47.2515971Z ##[debug]Loading inputs
+2023-02-01T02:47:47.2576172Z ##[debug]Loading env
+2023-02-01T02:47:47.2624525Z ##[group]Run echo Hello, world!
+2023-02-01T02:47:47.2624886Z [36;1mecho Hello, world![0m
+2023-02-01T02:47:47.2695658Z shell: /usr/bin/bash -e {0}
+2023-02-01T02:47:47.2696077Z ##[endgroup]
+2023-02-01T02:47:47.2868825Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/ee707ce4-b23c-4aa2-bde5-d86246264b17.sh
+2023-02-01T02:47:47.2894702Z Hello, world!
+2023-02-01T02:47:47.2907287Z ##[debug]Finishing: Run a one-line script
+2023-02-01T02:47:47.2912454Z ##[debug]Evaluating condition for step: 'Run a multi-line script'
+2023-02-01T02:47:47.2914011Z ##[debug]Evaluating: success()
+2023-02-01T02:47:47.2914434Z ##[debug]Evaluating success:
+2023-02-01T02:47:47.2914876Z ##[debug]=> true
+2023-02-01T02:47:47.2915339Z ##[debug]Result: true
+2023-02-01T02:47:47.2916028Z ##[debug]Starting: Run a multi-line script
+2023-02-01T02:47:47.2926712Z ##[debug]Loading inputs
+2023-02-01T02:47:47.2927768Z ##[debug]Loading env
+2023-02-01T02:47:47.2932910Z ##[group]Run echo Add other actions to build,
+2023-02-01T02:47:47.2933275Z [36;1mecho Add other actions to build,[0m
+2023-02-01T02:47:47.2933610Z [36;1mecho test, and deploy your project.[0m
+2023-02-01T02:47:47.2995285Z shell: /usr/bin/bash -e {0}
+2023-02-01T02:47:47.2995572Z ##[endgroup]
+2023-02-01T02:47:47.3062110Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/d96a413b-53f0-4e9a-9ec2-1027b05e240d.sh
+2023-02-01T02:47:47.3091619Z Add other actions to build,
+2023-02-01T02:47:47.3092305Z test, and deploy your project.
+2023-02-01T02:47:47.3097436Z ##[debug]Finishing: Run a multi-line script
+2023-02-01T02:47:47.3103181Z ##[debug]Evaluating condition for step: 'Post Run actions/checkout@v3'
+2023-02-01T02:47:47.3106218Z ##[debug]Evaluating: always()
+2023-02-01T02:47:47.3106934Z ##[debug]Evaluating always:
+2023-02-01T02:47:47.3108240Z ##[debug]=> true
+2023-02-01T02:47:47.3109029Z ##[debug]Result: true
+2023-02-01T02:47:47.3109769Z ##[debug]Starting: Post Run actions/checkout@v3
+2023-02-01T02:47:47.3141665Z ##[debug]Loading inputs
+2023-02-01T02:47:47.3143192Z ##[debug]Evaluating: github.repository
+2023-02-01T02:47:47.3143532Z ##[debug]Evaluating Index:
+2023-02-01T02:47:47.3143816Z ##[debug]..Evaluating github:
+2023-02-01T02:47:47.3144124Z ##[debug]..=> Object
+2023-02-01T02:47:47.3144414Z ##[debug]..Evaluating String:
+2023-02-01T02:47:47.3144709Z ##[debug]..=> 'repository'
+2023-02-01T02:47:47.3145082Z ##[debug]=> 'Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:47.3145516Z ##[debug]Result: 'Spaz1503cm/29a873afcb778df45403ec00f4e031e1979ac1f6'
+2023-02-01T02:47:47.3148152Z ##[debug]Evaluating: github.token
+2023-02-01T02:47:47.3148452Z ##[debug]Evaluating Index:
+2023-02-01T02:47:47.3148749Z ##[debug]..Evaluating github:
+2023-02-01T02:47:47.3149050Z ##[debug]..=> Object
+2023-02-01T02:47:47.3149322Z ##[debug]..Evaluating String:
+2023-02-01T02:47:47.3149602Z ##[debug]..=> 'token'
+2023-02-01T02:47:47.3150298Z ##[debug]=> '***'
+2023-02-01T02:47:47.3150718Z ##[debug]Result: '***'
+2023-02-01T02:47:47.3156974Z ##[debug]Loading env
+2023-02-01T02:47:47.3163084Z Post job cleanup.
+2023-02-01T02:47:47.4620934Z ##[debug]Getting git version
+2023-02-01T02:47:47.4640796Z [command]/usr/bin/git version
+2023-02-01T02:47:47.4722278Z git version 2.39.1
+2023-02-01T02:47:47.4744799Z ##[debug]0
+2023-02-01T02:47:47.4745920Z ##[debug]git version 2.39.1
+2023-02-01T02:47:47.4746174Z ##[debug]
+2023-02-01T02:47:47.4749850Z ##[debug]Set git useragent to: git/2.39.1 (github-actions-checkout)
+2023-02-01T02:47:47.4757442Z ::add-mask::***
+2023-02-01T02:47:47.4776794Z Temporarily overriding HOME='/home/runner/work/_temp/25f9cfe3-3374-4871-a55b-8ef7fe3d7794' before making global git config changes
+2023-02-01T02:47:47.4778331Z Adding repository directory to the temporary git global config as a safe directory
+2023-02-01T02:47:47.4785260Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/29a873afcb778df45403ec00f4e031e1979ac1f6/29a873afcb778df45403ec00f4e031e1979ac1f6
+2023-02-01T02:47:47.4827283Z ##[debug]0
+2023-02-01T02:47:47.4828200Z ##[debug]
+2023-02-01T02:47:47.4835432Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2023-02-01T02:47:47.4872449Z ##[debug]1
+2023-02-01T02:47:47.4873239Z ##[debug]
+2023-02-01T02:47:47.4888361Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2023-02-01T02:47:47.5163317Z ##[debug]0
+2023-02-01T02:47:47.5164244Z ##[debug]
+2023-02-01T02:47:47.5169191Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2023-02-01T02:47:47.5201846Z http.https://github.com/.extraheader
+2023-02-01T02:47:47.5207180Z ##[debug]0
+2023-02-01T02:47:47.5208278Z ##[debug]http.https://github.com/.extraheader
+2023-02-01T02:47:47.5208597Z ##[debug]
+2023-02-01T02:47:47.5216629Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2023-02-01T02:47:47.5254308Z ##[debug]0
+2023-02-01T02:47:47.5255143Z ##[debug]
+2023-02-01T02:47:47.5260496Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2023-02-01T02:47:47.5509560Z ##[debug]0
+2023-02-01T02:47:47.5510542Z ##[debug]
+2023-02-01T02:47:47.5511277Z ##[debug]Unsetting HOME override
+2023-02-01T02:47:47.5668528Z ##[debug]Node Action run completed with exit code 0
+2023-02-01T02:47:47.5671066Z ##[debug]Finishing: Post Run actions/checkout@v3
+2023-02-01T02:47:47.5812723Z ##[debug]Starting: Complete job
+2023-02-01T02:47:47.5814707Z Uploading runner diagnostic logs
+2023-02-01T02:47:47.5880429Z ##[debug]Starting diagnostic file upload.
+2023-02-01T02:47:47.5880822Z ##[debug]Setting up diagnostic log folders.
+2023-02-01T02:47:47.5883354Z ##[debug]Creating diagnostic log files folder.
+2023-02-01T02:47:47.5904749Z ##[debug]Copying 1 worker diagnostic logs.
+2023-02-01T02:47:47.5927518Z ##[debug]Copying 1 runner diagnostic logs.
+2023-02-01T02:47:47.5929249Z ##[debug]Zipping diagnostic files.
+2023-02-01T02:47:47.5979378Z ##[debug]Uploading diagnostic metadata file.
+2023-02-01T02:47:47.6015936Z ##[debug]Diagnostic file upload complete.
+2023-02-01T02:47:47.6016650Z Completed runner diagnostic log upload
+2023-02-01T02:47:47.6016981Z Cleaning up orphan processes
+2023-02-01T02:47:47.6380492Z ##[debug]Finishing: Complete job
+2023-02-01T02:47:47.6530940Z ##[debug]Finishing: build
